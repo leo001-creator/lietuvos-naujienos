@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <title>Administratoriaus Valdymas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <h1>Administratoriaus Valdymo Sistema</h1>
+    <a href="index.html" class="back-btn">Grįžti</a>
+</header>
+
+<main class="admin-container">
+    <h2>Pridėti naujieną</h2>
+    <input type="text" id="title" placeholder="Pavadinimas">
+    <input type="text" id="image" placeholder="Nuotraukos URL">
+    
+    <select id="category">
+        <option>Lietuva</option>
+        <option>Pasaulis</option>
+        <option>Technologijos</option>
+        <option>Sportas</option>
+        <option>Verslas</option>
+    </select>
+
+    <textarea id="content" placeholder="Straipsnio tekstas"></textarea>
+    <button onclick="addNews()">Pridėti</button>
+
+    <h2>Esamos naujienos</h2>
+    <div id="adminNews"></div>
+</main>
+
+<script src="js/admin.js"></script>
+</body>
+</html>
