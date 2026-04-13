@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Dirbtinis intelektas keičia pasaulį",
+    "description": "Naujos technologijos sparčiai tobulėja.",
+    "content": "Dirbtinis intelektas daro didžiulę įtaką verslui, medicinai ir švietimui.",
+    "category": "Technologijos",
+    "image": "https://picsum.photos/600/400?1"
+  },
+  {
+    "id": 2,
+    "title": "Lietuva pasiekė svarbią pergalę",
+    "description": "Įspūdingas Lietuvos sportininkų pasirodymas.",
+    "content": "Lietuvos rinktinė iškovojo reikšmingą pergalę tarptautinėse varžybose.",
+    "category": "Sportas",
+    "image": "https://picsum.photos/600/400?2"
+  },
+  {
+    "id": 3,
+    "title": "Auga Lietuvos ekonomika",
+    "description": "Verslo sektorius rodo teigiamus rezultatus.",
+    "content": "Ekonomikos augimas skatina investicijas ir darbo vietų kūrimą.",
+    "category": "Verslas",
+    "image": "https://picsum.photos/600/400?3"
+  },
+  {
+    "id": 4,
+    "title": "Nauji projektai Vilniuje",
+    "description": "Sostinėje planuojamos modernios investicijos.",
+    "content": "Vilniuje planuojami nauji infrastruktūros ir technologijų projektai.",
+    "category": "Lietuva",
+    "image": "https://picsum.photos/600/400?4"
+  }
+]
