@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lietuvos Naujienų Portalas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>📰 Lietuvos Naujienų Portalas</h1>
+    <div class="controls">
+        <button onclick="filtruotiNaujienas('Visos')">Visos</button>
+        <button onclick="filtruotiNaujienas('Technologijos')">Technologijos</button>
+        <button onclick="filtruotiNaujienas('Sportas')">Sportas</button>
+        <button onclick="filtruotiNaujienas('Verslas')">Verslas</button>
+        <button onclick="filtruotiNaujienas('Lietuva')">Lietuva</button>
+    </div>
+
+    <input type="text" id="paieska" placeholder="Ieškoti naujienų...">
+    <button id="temosMygtukas">🌙</button>
+</header>
+
+<main>
+    <div id="naujienuKonteineris" class="tinklelis"></div>
+</main>
+
+<section class="prenumerata">
+    <h2>Prenumeruokite naujienas</h2>
+    <input type="email" id="elPastas" placeholder="Įveskite el. paštą">
+    <button onclick="prenumeruoti()">Prenumeruoti</button>
+    <p id="zinute"></p>
+</section>
+
+<button onclick="iViršu()" id="virsus">⬆</button>
+
+<footer>
+    <p>© 2026 Lietuvos Naujienų Portalas</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
