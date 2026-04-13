@@ -2,44 +2,39 @@
 <html lang="lt">
 <head>
     <meta charset="UTF-8">
-    <title>Lietuvos Naujienos</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lietuvos Naujienos - Pradinis Puslapis</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header>
+        <h1>📰 Lietuvos Naujienos</h1>
+        <button id="theme-toggle">🌙 Dark Mode</button>
+    </header>
 
-<header class="header">
-    <div class="top-bar">
-        <h1>Lietuvos Naujienos</h1>
-        <div>
-            <input type="text" id="search" placeholder="Ieškoti...">
-            <button id="themeToggle">🌙</button>
-            <a href="admin.html" class="admin-btn">Admin</a>
-        </div>
-    </div>
-
-    <nav class="navbar">
-        <button onclick="filtruoti('Visos')">Visos</button>
-        <button onclick="filtruoti('Lietuva')">Lietuva</button>
-        <button onclick="filtruoti('Pasaulis')">Pasaulis</button>
-        <button onclick="filtruoti('Technologijos')">Technologijos</button>
-        <button onclick="filtruoti('Sportas')">Sportas</button>
-        <button onclick="filtruoti('Verslas')">Verslas</button>
+    <nav>
+        <button class="active" onclick="filtruoti('Visos')">Visos</button>
+        <button onclick="filtruoti('Lietuva')">🏠 Lietuva</button>
+        <button onclick="filtruoti('Pasaulis')">🌍 Pasaulis</button>
+        <button onclick="filtruoti('Technologijos')">💻 Technologijos</button>
+        <button onclick="filtruoti('Sportas')">⚽ Sportas</button>
+        <button onclick="filtruoti('Verslas')">💼 Verslas</button>
     </nav>
-</header>
 
-<section class="hero">
-    <h2>Naujausios Lietuvos ir pasaulio naujienos</h2>
-</section>
+    <section id="search">
+        <input type="text" id="news-search" placeholder="Ieškoti naujienų...">
+    </section>
 
-<main class="container">
-    <div id="newsContainer" class="news-grid"></div>
-</main>
+    <main>
+        <div id="news-list">
+            <!-- News articles will be dynamically loaded here -->
+        </div>
+    </main>
 
-<footer>
-    <p>© 2026 Lietuvos Naujienos</p>
-</footer>
+    <footer>
+        <p>&copy; 2026 Lietuvos Naujienos. Visos teisės saugomos.</p>
+    </footer>
 
-<script src="js/main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
